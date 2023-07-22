@@ -17,8 +17,8 @@ nav {
 }
 
 #sec1{
-    /* background-image: url(https://services.meteored.com/img/article/para-qual-lugar-o-universo-esta-se-expandindo-1685829316554_1280.png);
-    height: 400px; */
+    /* background-image: url(https://services.meteored.com/img/article/para-qual-lugar-o-universo-esta-se-expandindo-1685829316554_1280.png); */
+    height: 100px;
 }
 
 h1 {
@@ -49,9 +49,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 500px;
-    background-color: blue;
 }
 
 h2 {
