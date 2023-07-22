@@ -6,6 +6,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: #000 1px solid;
 }
 
 #nasaLogo {
@@ -18,13 +19,15 @@ nav {
 
 #sec1{
     /* background-image: url(https://services.meteored.com/img/article/para-qual-lugar-o-universo-esta-se-expandindo-1685829316554_1280.png); */
-    height: 100px;
+    height: 120px;
 }
 
 h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 10px 20px;
     /* color: white; 
     padding-top: 100px;*/
 }
@@ -49,6 +52,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 400px;
 }
 
 h2 {
@@ -92,6 +96,29 @@ h2 {
 
 footer {
     background-color: #000;
-    height: 250px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: ;
+}
 
+#footerCtt {
+    display: flex;
+}
+
+.footerLogos {
+    height: 50px;
+    margin: 20px;
+    filter: invert(1);
+}
+
+#emailLogo{
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.nasaLogo {
+    height: 70px;
 }

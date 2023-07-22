@@ -16,7 +16,7 @@ async function sendApiRequest(){
 
 function useApiData(data){
     // document.querySelector("#receiveImg").innerHTML = data.explanation
-    document.querySelector("#receiveImg").innerHTML = `<img src="${data.url}">`
+    document.querySelector("#receiveImg").innerHTML = `<img height="90%"src="${data.url}">`
 }
 
 
