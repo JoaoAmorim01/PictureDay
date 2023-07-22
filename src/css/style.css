@@ -2,6 +2,12 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -18,8 +24,7 @@ nav {
 }
 
 #sec1{
-    /* background-image: url(https://services.meteored.com/img/article/para-qual-lugar-o-universo-esta-se-expandindo-1685829316554_1280.png); */
-    height: 120px;
+    height: 100px;
 }
 
 h1 {
@@ -28,8 +33,6 @@ h1 {
     justify-content: center;
     text-align: center;
     margin: 10px 20px;
-    /* color: white; 
-    padding-top: 100px;*/
 }
 
 #botoes {
@@ -55,56 +58,25 @@ h1 {
     height: 400px;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-#ctt {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.CaixaCtt {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 350px;
-}
-
-.infoCtt {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-}
-
-#email {
-    width: 300px;
-    height: 300px;
-}
-
-#wpp {
-    width: 200px;
-    height: 200px;
-}
-
-#tbrlh{
-    height: 10px;
-    width: 10px;
+#pNasa{
+   margin: 5px 40px 10px; 
+   text-align: center;
+   height: 180px;
 }
 
 footer {
-    background-color: #000;
-    height: 110px;
+    background-color: blue;
+    color: #FFF;
+    width: 100%;
+    height: 110px;    
+    text-align: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: ;
 }
 
 #footerCtt {
     display: flex;
+    height: 100%;
 }
 
 .footerLogos {
