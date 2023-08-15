@@ -1,7 +1,9 @@
 const btnEnviar = document.querySelector("#enviar");
+const botao = document.querySelector("#btnTxt");
+const paragrafo = document.querySelector("#paragrafoNasa");
+const botaoFechar = document.querySelector(".semTexto");
 
 btnEnviar.addEventListener("click", ()=>{
-    console.log("O botão foi pressionado");
     sendApiRequest();
 })
 
@@ -10,16 +12,23 @@ async function sendApiRequest(){
     let input = document.querySelector("#inputData").value;
     let response = await fetch (`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${input}`);
     let data = await response.json();
-    console.log(data);
     useApiData(data);
 }
 
 function useApiData(data){
     // document.querySelector("#receiveImg").innerHTML = data.explanation
     document.querySelector("#receiveImg").innerHTML = `<img height="90%" border="2px solid" src="${data.url}">`
-    document.querySelector("#pNasa").innerHTML = data.explanation;
+    document.querySelector("#paragrafoNasa").innerHTML = data.explanation;
 }
 
+botao.addEventListener("click", () => {
+    mostraTexto();
+});
 
+botaoFechar.addEventListener("click", () => {
+    paragrafo.classList.remove("visivel");
+});
 
-
+function mostraTexto () {
+    paragrafo.classList.toggle("visivel");
+}

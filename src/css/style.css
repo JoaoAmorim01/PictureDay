@@ -58,10 +58,19 @@ h1 {
     height: 400px;
 }
 
-#pNasa{
-   margin: 5px 40px 10px; 
-   text-align: center;
-   height: 180px;
+#btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnTxt {
+    width: 80px;
+    cursor: pointer;
+}
+
+#btnImg {
+    height: 20px;
 }
 
 footer {
